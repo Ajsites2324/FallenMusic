@@ -43,7 +43,7 @@ def time_to_seconds(time):
 
 
 @Client.on_message(
-    command(["play", "p", "fuck"])
+    command(["play", "aj", "ajyuku", "Ajplay", "yuku", "iloveyouyuku", "farsana"])
     & filters.group
     & ~filters.edited
     & ~filters.forwarded
@@ -227,7 +227,7 @@ async def play(_, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("• sᴜᴩᴩᴏʀᴛ •", url=f"https://t.me/{SUPPORT_GROUP}"),
+                    InlineKeyboardButton("➤⃝✖‿✖•Ajͥeeͣtͫ", url=f"https://t.me/{SUPPORT_GROUP}"),
                     InlineKeyboardButton("» ᴄʟᴏsᴇ «", callback_data="close_play")
                 ],
             ]
