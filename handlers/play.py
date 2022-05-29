@@ -43,7 +43,7 @@ def time_to_seconds(time):
 
 
 @Client.on_message(
-    command(["play", "aj", "ajyuku", "Ajplay", "yuku", "iloveyouyuku", "farsana"])
+    command(["play", "aj", "ajyuku", "Ajplay", "yuku", "iloveyouyuku", "farsana", "iloveyouajeet"])
     & filters.group
     & ~filters.edited
     & ~filters.forwarded
